@@ -1,0 +1,41 @@
+h1 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .item {
+    padding: 20px;
+    background-color: #2B2730;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .item h2 {
+    color: white;
+    margin-top: 0;
+  }
+  
+  .item .texto {
+    color: #9575DE;
+    font-size: 18px;
+  }
+  
+  .item span {
+    color: #E966A0;
+  }
+  
+  .item .botao-comprar {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #E966A0;
+    border-radius: 4px;
+    display: inline-block;
+  }
